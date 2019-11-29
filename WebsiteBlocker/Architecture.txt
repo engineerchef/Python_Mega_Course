@@ -1,0 +1,9 @@
+Program Architecture
+
+hosts file:
+Linux and Mac : /etc/hosts
+Windows : C:\Windows\System32\drivers\etc
+
+NOTE:   If you want to run this program as service, you have to change file extention .py to .pyw like below:
+        'Website_Blocker.py' to 'Website_Blocker.pyw'
+        and also "Run As Administration" otherwise it won't work properly

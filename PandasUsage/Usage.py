@@ -1,0 +1,17 @@
+import pandas
+
+df1 = pandas.DataFrame([[2, 6, 4], [10, 25, 32]], columns=["Price", "Age", "Value"], index=["First", "Second"])
+print(df1)
+print()
+df2 = pandas.DataFrame([{"Name": "John", "Surname": "Johns"}, {"Name": "Jack"}], index=["First", "Last"])
+print(df2)
+print()
+print(df1.mean())
+print()
+print(df1.mean().mean())
+print()
+print(df1.Price)
+print()
+print(df1.Price.mean())
+print()
+print(df1.Price.max())

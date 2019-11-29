@@ -1,0 +1,5 @@
+myFile = open("fruits.txt")
+print(myFile.read())
+print(myFile.read())
+print(myFile.read())
+print(myFile.read())
